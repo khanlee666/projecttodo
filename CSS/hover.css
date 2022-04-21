@@ -1,0 +1,37 @@
+.delete:hover {
+    background-color: #833AE0;
+    color: white;
+    border: 1px solid #833AE0;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #9953F1;
+    ;
+}
+
+.btn:hover .plus {
+    background-color: #AA68FE;
+}
+
+.plus:hover {
+    background-color: #AA68FE;
+}
+
+.plus:hover .btn {
+    background-color: #9953F1;
+    ;
+}
+
+.todo-div:nth-child(1) {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
